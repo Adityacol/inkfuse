@@ -1,6 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Code, Heart, Star } from 'lucide-react';
+import React from 'react';
 
 const Credits: React.FC = () => {
   return (
@@ -28,7 +28,7 @@ const Credits: React.FC = () => {
         </div>
         <div className="flex items-center space-x-4 text-sm text-gray-400">
           <motion.a
-            href="https://github.com/yourusername"
+            href="https://github.com/Adityacol/inkfuse"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
